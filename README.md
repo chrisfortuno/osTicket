@@ -50,8 +50,28 @@ Enabling IIS (Internet Information Services) inside of our Virtual Machine so we
 
 ![image](https://github.com/chrisfortuno/osTicket/assets/149267076/77f41e64-4c40-4f4b-a8d3-c3190a9717e4)
 
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/e713d1bd-02b8-4789-847d-2e86e1cb5b15)
 
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/81221991-efc5-4217-975c-e85bc257b3b9)
 
-Downloading and installing prerequisit software for IIS (PHP Manager, Rewrite Module, MySQL, C++ Redistributable)
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/a3313c24-f7b6-492c-85b5-5643bdb9c16a)
+
+Downloading and installing prerequisit software for IIS (PHP Manager, Rewrite Module, MySQL, C++ Redistributable), and creating a folder in the (C:) drive of our virtual machine for PHP to download into
 </p>
 <br />
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/93e21c52-9e71-4810-9b2a-97c7ef1f0fe0)
+
+setting up our root password for the SQL server
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/70a92b09-723e-4b35-82c4-1bcb41068b3a)
+
+setting up the SQL database on the virtual machine so osTicket has a place to store its application data
+
+</p>
+<br />
+
+
+
+
+
