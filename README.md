@@ -68,6 +68,15 @@ setting up our root password for the SQL server
 
 setting up the SQL database on the virtual machine so osTicket has a place to store its application data
 
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/39a88743-a9a6-4acc-8211-aa33f5de19fa)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/8964864d-6c2f-4273-99ca-bcc2c27d23f2)
+
+
+
+Opening IIS as an administrator and registering PHP within IIS
+
+
 </p>
 <br />
 
