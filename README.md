@@ -84,7 +84,25 @@ after downloading osTicket, extracting and copying the 'upload' folder in the os
 
 ![image](https://github.com/chrisfortuno/osTicket/assets/149267076/3080f00d-4730-4cfd-9b2f-03f455ccea54)
 
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/3ba6b46f-41fb-4e5f-be22-e8f90d3523d8)
+
 After restarting IIS, access the osTicket application by selecting 'browse*.80 (http)' in the osTicket folder inside of IIS
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/1b9910f4-00aa-41ce-8605-403dfe451ec9)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/24a02a1a-c771-43a7-8e11-9778aa5feed5)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/15e8aed2-478e-4a59-9ed2-ca1bfe1a7c6e)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/15ebad54-2a73-4cba-bd95-2db2fa91eeaf)
+
+
+
+Enable some of the extensions that are 'X'd' out inside of PHP Manager, then refreshing osTicket to observe the changes 
+
+
+
+
 
 
 
