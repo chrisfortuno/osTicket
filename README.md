@@ -100,6 +100,21 @@ After restarting IIS, access the osTicket application by selecting 'browse*.80 (
 
 Enable some of the extensions that are 'X'd' out inside of PHP Manager, then refreshing osTicket to observe the changes 
 
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/2144d78d-2ffb-436b-989c-dc9c65a2282e)
+
+renaming C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+to: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/3fdf9c1d-23a1-4c5d-ab4b-459924e62cc6)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/756c0b26-8960-4b84-ab8c-a04284b3f97f)
+
+
+Click 'disable inheritence' in the advanced security settings of the 'ost-config.php' file, in order to get the config file to stop inheriting permissions from its parent file. Afterwards, we click 'remove all inherited permissions from this object'
+
+
+
 
 
 
