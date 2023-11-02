@@ -72,9 +72,22 @@ setting up the SQL database on the virtual machine so osTicket has a place to st
 
 ![image](https://github.com/chrisfortuno/osTicket/assets/149267076/8964864d-6c2f-4273-99ca-bcc2c27d23f2)
 
-
-
 Opening IIS as an administrator and registering PHP within IIS
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/10ae140a-5f90-4b97-be49-f0517c8fecdb)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/37b1b840-da51-4f1b-ba3a-d7dddbc14e06)
+
+
+
+after downloading osTicket, extracting and copying the 'upload' folder in the osTicket file to c:\inetpub\wwwroot then renaming the 'upload folder to osTicket
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/3080f00d-4730-4cfd-9b2f-03f455ccea54)
+
+After restarting IIS, access the osTicket application by selecting 'browse*.80 (http)' in the osTicket folder inside of IIS
+
+
+
 
 
 </p>
