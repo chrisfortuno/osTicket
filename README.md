@@ -113,6 +113,79 @@ to: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 Click 'disable inheritence' in the advanced security settings of the 'ost-config.php' file, in order to get the config file to stop inheriting permissions from its parent file. Afterwards, we click 'remove all inherited permissions from this object'
 
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/4b1fbf07-b877-4134-825e-41376d492946)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/73243a27-ceb3-43c3-89b6-2177db90b3b0)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/417bb08f-4250-4ccf-a86b-fff279446cb0)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/8e10d837-58ca-4141-8fe9-535e4e8ba6c2)
+
+
+next, we add permissions, click 'select principle' and type 'everyone' in order to give everyone permission to have full control over the .php file
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/6f102ac2-307c-47cd-9196-996ec6e8aea1)
+
+now we can continue setting up osTicket in the browser after clicking 'Continue'
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/65fc8323-7ce7-46fb-8a67-00181126a9d6)
+
+
+Fill out the system settings and admin user fields to continue to osTicket installation 
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/62d2006b-57fd-4f5c-acb6-48d0c968590f)
+
+Download and install HeidiSQL, which is a client that allows us to interact with the SQL database from osTicket
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/5ae5f734-67ee-4040-b12e-75a5c928df3f)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/73addba7-5bb1-4934-aa28-d3ffd6f1379e)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/097dca3c-b3fc-4c30-a4f1-2f05343ae832)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/025060d8-d808-4727-854e-df07b49f4ff7)
+
+Next, create a new session in HeidiSQL, use whatever username and password you chose earlier. Then, go back to the osTicket browser and connect to the session in the 'Database settings' section using the same username and password. Afterwards, go back to HeidiSQL and create a new database and name it 'osTicket', then click 'Install Now'
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/c1177fb8-fc44-464f-8730-bce9b690d647)
+
+If everything was done correctly, we should see this screen that says installation was succeessful
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/beff84b8-d53d-46cf-8b45-90d834fa35b3)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/754d3028-d127-48d8-bc8a-3aa4c0031041)
+
+Lastly, delete C:\inetpub\wwwroot\osTicket\setup and set permissions to 'read only': C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/8c276e2a-2517-44f7-b8e3-5d8f47496af4)
+
+![image](https://github.com/chrisfortuno/osTicket/assets/149267076/1e1a4cb4-72cd-4bf4-982c-0baa77ad2ced)
+
+Go to the login page with this link: (http://localhost/osTicket/scp/login.php) then putting in the username and password you chose and you should be logged in to the osTicket dashboard  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
